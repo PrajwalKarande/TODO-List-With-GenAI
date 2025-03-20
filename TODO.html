@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="TODO.js" defer></script>
+</head>
+<body>
+    <h1 id="main-h1">TODO List</h1>
+    <div id="input-container">
+        <input type="text" id="uinput" placeholder="Enter your task here">
+        <button onclick="addTask()" id="button1">Add Task</button>
+        <button onclick="generate()" id="button2">Generate with AI</button>
+        <table id="task-table">
+            <tr>
+                <th>Task</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+        
+    </div>
+    
+</body>
+</html>
